@@ -6,13 +6,14 @@ const Button = ({ label, onClick, type }) => (
   <button
     className={cx(
       'pointer',
+      'grow',
       'bn',
-      'br-pill',
       'ph3',
       'pv2',
       'white',
       'bg-dark-gray',
       'outline-0',
+      'z-1',
     )}
     onClick={onClick}
     type={type}
